@@ -1,0 +1,175 @@
+.humor {
+    cursor:url(http://piq.codeus.net/static/media/userpics/piq_300778_400x400.png);
+}
+.row{
+	display: inline;
+}
+p{
+	color: black;
+	font-size: 18px;
+	font-family: cursive;
+
+}
+#intro{
+/*display: inline-block;
+	height: 270px;
+	width: 510px;
+	background-color: white;
+	text-align: center;
+	border: 5px double ;
+	margin-right: 360px;
+	margin-left: 380px;
+	margin-top: 10px;
+	float:right;*/
+}
+#ent{
+	float: left;
+	padding-top: 10px;
+display: inline;
+z-index: 1;
+}
+#entmoot{
+	float: right;
+	padding-top: 10px;
+display: inline;
+z-index: 1;
+}
+#intro{
+display: inline-block;
+	height: 270px;
+	width: 510px;
+	background-color: white;
+	text-align: center;
+	border: 5px double ;
+	/*margin-right: 380px;
+	margin-left: 380px;
+	margin-top: 10px;*/
+	margin: auto;
+}
+.homeLink:link {
+color:black;
+}
+.homeLink:visited {
+color:#556B2F;
+}.homeLink:hover {
+color:blue;color:orange;
+}.homeLink:active {
+
+}
+.listitem{
+	color: yellow;
+	font-size:25px;
+}
+#background{
+	background-color: tan;
+
+}
+#button{
+	width:50px;
+	height:20px;
+	color:purple;
+	background-color:red;
+	border-radius: 15px;
+}	
+header{
+	border: 5px solid black;
+	background-color: #b3ffff;
+	color:black;
+	font-size: 50px;
+	font-family: cursive;
+	text-align: center;
+
+}
+video{
+	margin: 300px;
+	padding: 40px;
+}
+#video1{
+	padding:20px;
+}
+footer{
+	height:50px;
+	width:30%;
+	border: 5px solid black;
+	background-color: green;
+} 
+h1{
+	text-align: center;
+}
+.book-trivia{
+	height:300px;
+	width:400px;
+	border: 20px double white;
+	padding: 20px;
+}
+.list1{
+	height:350px;
+	width:200px;
+	border: 20px double orange;
+	margin-left: 30px;
+
+}
+#navmenu{
+
+	width: 580px;
+	height: 30px;
+	margin:auto;
+	border: 2px;
+	border-style: dotted;
+	background-color: white;
+}
+#navitem{
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 20px;
+}
+.lotr{
+	font-size:20px;
+	color: blue;
+	font-family: cursive;
+}
+.vandalize{
+	color: orange;
+	font-family:cursive ;
+	text-align: right;
+}#lotritb{
+	height: 150px;
+	width: 150px;
+	background-color:blue;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+}
+#hobbit{
+	height: 150px;
+	width: 150px;
+	background-color: orange;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+	
+
+}
+#history{
+	height: 150px;
+	width: 150px;
+	background-color: purple;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+	
+}
+#book-ratings{
+	height:2048px;
+	position: relative;
+	top: 750px;
+}
+#music{
+
+}
+#music_parts{
+	display:inline;
+	list-style-type: none;
+	padding: 15px;
+}

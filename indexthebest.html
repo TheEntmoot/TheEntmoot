@@ -1,0 +1,80 @@
+
+<html> 
+	<head>
+		<link type="text/css" rel="stylesheet" href="main.css" />
+		<title>Entmoot</title> 
+		<style>
+
+
+		</style>
+		<script type="text/javascript">
+			function banner(){ 
+var text = confirm("The council of elrond is a very good website for J.R.R.Tolkien related things."); 
+return text; 
+
+
+function answer(){ 
+var radio = document.getElementsByName("trivia");
+var selection = false; 
+var message = ""; 
+
+for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "rb" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop
+
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+
+} //end function answer 
+}
+		</script>
+	</head> 
+	<body id = "background" >
+		<h1></h1>
+		<a href="http://www.councilofelrond.com/" onclick="return banner()"><header id = "header">Welcome to the Entmoot</header></a>
+		<nav>
+			<ul id = "navmenu">
+				<li id = "navitem"><a class="homeLink" href="indexthebest.html"><span style="cursor:">Home</a></li>
+				<li id = "navitem"><a class="homeLink" href ="books.html"><span style="cursor:context-menu">Books</span><a/></li>
+				<li id = "navitem"> <a class="homeLink" href="reference_index.html"><span style="cursor:help">Reference</span></a></li>
+				<li id = "navitem"><a class="homeLink" href="Bag_End.html">Bag End</a> </li>
+				<li id = "navitem"><a class="homeLink" href="Multimedia.html">Multimedia</a></li>
+				<li id = "navitem"><a class="homeLink" href="Quotes.html">Quotes</a></li>
+				<li id = "navitem"><a class="homeLink" href="Humor.html">Humor</a></li>
+			</ul>
+		</nav>
+		<div class = "row">
+
+		<div>
+			<img id = "ent" src="http://static4.comicvine.com/uploads/scale_small/12/128795/3643962-elder+ent+3+by+moonxels.jpg" height="420">
+		</div>
+						<div>
+			<img id = "entmoot" src="http://tolkiengateway.net/w/images/thumb/b/bb/Darrell_Sweet_-_Entmoot.jpg/250px-Darrell_Sweet_-_Entmoot.jpg" height="330">
+		</div>
+
+				<div id = "intro"= >
+		 <p ><i><i><strong>They come with fire, they come with axes... gnawing, biting, breaking, hacking, burning! Destroyers and usurpers, curse them!</strong></i></i><br>Welcome to the Entmoot. You have just found a large reservoir of references related to J.R.R.Tolkien and his books. Use our Reference section to help with decoding the books found in the Book section. Then go to The Bag End section for decorating ideas and for some crafts. After that go to the multimedia section to find some music to play in you newly decorated room. Or memorize some quotes and laugh in the Humor section.</p>
+		</div>
+</div>
+<div class= "book-trivia">
+			<h4>Book trivia</h4>
+			<p>What is Tom Bombadil?</p>
+			<form >
+				<div id = "response">
+				<input type="radio"name="trivia"value="rp">A river spirit<br>
+				<input type="radio"name="trivia"value="mc">An Ainur<br>
+				<input type="radio"name="trivia"value="jv">A Maiar<br>
+				<input type="radio"name="trivia"value="rb">No one knows<br>
+				<input type="button"value="submit"id ="button"onclick="answer">
+			</div>
+			 </form>
+		</div>
+
+	</body> 
+</html>

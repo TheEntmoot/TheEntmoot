@@ -101,6 +101,7 @@ h1{
 	width:400px;
 	border: 20px double white;
 	padding: 20px;
+	float: right;
 }
 .list1{
 	height:350px;

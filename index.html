@@ -35,18 +35,28 @@ document.getElementById("response").innerHTML = message;
 }
 		</script>
 <script type="text/javascript">
-			var question=prompt("Who is my favorite author", "Be sure to spell it correctly.");
-			if (question=="J.R.R.Tolkien"||"j.r.r.tolkien"||"Tolkien"||"tolkien") {
+			var question=prompt("Who is my favorite author", "Be sure to spell it correctly with proper capitalization");
+			if (question=="J.R.R.Tolkien") {
 				alert("Good Job! One more question");
 			}else{
-				alert("Too Bad, wrong answer")
+				alert("Too Bad, either incorrect capitalization or wrong answer")
 				document.location="https://theentmoot.github.io";
 
 			}
 	</script>
 			<script type="text/javascript">
 			var question=prompt("Do you like Harry Potter?", "Answer Here!");
-			if (question=="sort of"||"Sort of"||"kind of"||"Kind of"||"Maybe"||"maybe"||"no"||"No") {
+			if (question=="Not Really") {
+				alert("Awesome!!!!!!!! Sorry, There's one more");
+			}else{
+				alert("Too Bad, no Harry Potter fans allowed")
+				document.location="https://theentmoot.github.io";
+
+			}
+	</script>
+		<script type="text/javascript">
+			var question=prompt("What's an ent?", "Answer Here!");
+			if (question=="a living tree") {
 				alert("Awesome!!!!!!!! Sorry, There's one more");
 			}else{
 				alert("Too Bad, no Harry Potter fans allowed")
